@@ -1,0 +1,60 @@
+body {
+    background-size: 100%;
+}
+
+a {
+    background-color: gray;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    flex-direction: row;
+    position: fixed;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+p {
+    font-weight: bold;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+    background: gray;
+}
+
+.contain {
+    padding-left: 20px;
+    position: absolute;
+    left: 170px;
+}
+
+.code {
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+}
